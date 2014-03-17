@@ -1,0 +1,26 @@
+{
+  "name": "seamsearch",
+  "version": "0.1.6",
+  "description": "a nodejs fulltext search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luyongfugx/seamSearch"
+  },
+  "keywords": [
+    "search",
+    "index",
+    "nodejs",
+    "seam"
+  ],
+  "author": "luyongfugx@163.com",
+  "license": "mit",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/luyongfugx/seamSearch/issues"
+  }
+}

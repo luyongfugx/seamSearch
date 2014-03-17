@@ -7,17 +7,17 @@
 //
 
 
-#include "../store/IndexOutput.h"
-#include "../store/IndexInput.h"
-#include "../document/Document.h"
-#include "../writer/IndexWriter.h"
-#include "../reader/IndexReader.h"
-#include "../reader/HitDoc.h"
-#include "../comm/stdHeader.h"
-#include "../search/IndexSearch.h"
-#include "../merge/SegmentInfos.h"
-#include "../merge/IndexMerge.h"
-#include "../search/PriQueue.h"
+#include "cpp/store/IndexOutput.h"
+#include "cpp/store/IndexInput.h"
+#include "cpp/document/Document.h"
+#include "cpp/writer/IndexWriter.h"
+#include "cpp/reader/IndexReader.h"
+#include "cpp/reader/HitDoc.h"
+#include "cpp/comm/stdHeader.h"
+#include "cpp/search/IndexSearch.h"
+#include "cpp/merge/SegmentInfos.h"
+#include "cpp/merge/IndexMerge.h"
+#include "cpp/search/PriQueue.h"
 #include  <stdio.h>
 #include <string>
 #include   <iostream>

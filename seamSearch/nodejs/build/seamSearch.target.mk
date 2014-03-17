@@ -84,18 +84,18 @@ INCS_Release := \
 
 OBJS := \
 	$(obj).target/$(TARGET)/nodeSearch.o \
-	$(obj).target/$(TARGET)/../store/IndexOutput.o \
-	$(obj).target/$(TARGET)/../store/IndexInput.o \
-	$(obj).target/$(TARGET)/../document/Document.o \
-	$(obj).target/$(TARGET)/../writer/IndexWriter.o \
-	$(obj).target/$(TARGET)/../reader/IndexReader.o \
-	$(obj).target/$(TARGET)/../reader/HitDoc.o \
-	$(obj).target/$(TARGET)/../search/IndexSearch.o \
-	$(obj).target/$(TARGET)/../merge/SegmentInfos.o \
-	$(obj).target/$(TARGET)/../merge/IndexMerge.o \
-	$(obj).target/$(TARGET)/../seg/Dict.o \
-	$(obj).target/$(TARGET)/../seg/CHzSeg.o \
-	$(obj).target/$(TARGET)/../search/PriQueue.o
+	$(obj).target/$(TARGET)/cpp/store/IndexOutput.o \
+	$(obj).target/$(TARGET)/cpp/store/IndexInput.o \
+	$(obj).target/$(TARGET)/cpp/document/Document.o \
+	$(obj).target/$(TARGET)/cpp/writer/IndexWriter.o \
+	$(obj).target/$(TARGET)/cpp/reader/IndexReader.o \
+	$(obj).target/$(TARGET)/cpp/reader/HitDoc.o \
+	$(obj).target/$(TARGET)/cpp/search/IndexSearch.o \
+	$(obj).target/$(TARGET)/cpp/merge/SegmentInfos.o \
+	$(obj).target/$(TARGET)/cpp/merge/IndexMerge.o \
+	$(obj).target/$(TARGET)/cpp/seg/Dict.o \
+	$(obj).target/$(TARGET)/cpp/seg/CHzSeg.o \
+	$(obj).target/$(TARGET)/cpp/search/PriQueue.o
 
 # Add to the list of files we specially track dependencies for.
 all_deps += $(OBJS)
