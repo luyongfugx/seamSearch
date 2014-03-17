@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A330BD8718D19FCF00FB4340 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BD8618D19FCF00FB4340 /* main.cpp */; };
+		A330BD8918D19FCF00FB4340 /* seamSearch.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A330BD8818D19FCF00FB4340 /* seamSearch.1 */; };
+		A330BDB318D1A3B200FB4340 /* Document.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BD9218D1A02500FB4340 /* Document.cpp */; };
+		A330BDB618D1A3D900FB4340 /* IndexMerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BD9718D1A02500FB4340 /* IndexMerge.cpp */; };
+		A330BDB718D1A3D900FB4340 /* SegmentInfos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BD9918D1A02500FB4340 /* SegmentInfos.cpp */; };
+		A330BDB818D1A3D900FB4340 /* HitDoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BD9C18D1A02500FB4340 /* HitDoc.cpp */; };
+		A330BDB918D1A3D900FB4340 /* IndexReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BD9E18D1A02500FB4340 /* IndexReader.cpp */; };
+		A330BDBA18D1A3D900FB4340 /* IndexSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BDA118D1A02500FB4340 /* IndexSearch.cpp */; };
+		A330BDBB18D1A3D900FB4340 /* PriQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BDA318D1A02500FB4340 /* PriQueue.cpp */; };
+		A330BDBC18D1A3D900FB4340 /* CHzSeg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BDA618D1A02500FB4340 /* CHzSeg.cpp */; };
+		A330BDBD18D1A3D900FB4340 /* Dict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BDA818D1A02500FB4340 /* Dict.cpp */; };
+		A330BDBE18D1A3D900FB4340 /* IndexInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BDAB18D1A02500FB4340 /* IndexInput.cpp */; };
+		A330BDBF18D1A3D900FB4340 /* IndexOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BDAD18D1A02500FB4340 /* IndexOutput.cpp */; };
+		A330BDC018D1A3D900FB4340 /* IndexWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BDB118D1A02500FB4340 /* IndexWriter.cpp */; };
+		A330BDC718D2014900FB4340 /* nodeSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A330BDC618D2014900FB4340 /* nodeSearch.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A330BD8118D19FCF00FB4340 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A330BD8918D19FCF00FB4340 /* seamSearch.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A330BD8318D19FCF00FB4340 /* seamSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = seamSearch; sourceTree = BUILT_PRODUCTS_DIR; };
+		A330BD8618D19FCF00FB4340 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A330BD8818D19FCF00FB4340 /* seamSearch.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = seamSearch.1; sourceTree = "<group>"; };
+		A330BD9018D1A00300FB4340 /* stdHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdHeader.h; sourceTree = "<group>"; };
+		A330BD9218D1A02500FB4340 /* Document.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Document.cpp; sourceTree = "<group>"; };
+		A330BD9318D1A02500FB4340 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		A330BD9718D1A02500FB4340 /* IndexMerge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndexMerge.cpp; sourceTree = "<group>"; };
+		A330BD9818D1A02500FB4340 /* IndexMerge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexMerge.h; sourceTree = "<group>"; };
+		A330BD9918D1A02500FB4340 /* SegmentInfos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SegmentInfos.cpp; sourceTree = "<group>"; };
+		A330BD9A18D1A02500FB4340 /* SegmentInfos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentInfos.h; sourceTree = "<group>"; };
+		A330BD9C18D1A02500FB4340 /* HitDoc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HitDoc.cpp; sourceTree = "<group>"; };
+		A330BD9D18D1A02500FB4340 /* HitDoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitDoc.h; sourceTree = "<group>"; };
+		A330BD9E18D1A02500FB4340 /* IndexReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndexReader.cpp; sourceTree = "<group>"; };
+		A330BD9F18D1A02500FB4340 /* IndexReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexReader.h; sourceTree = "<group>"; };
+		A330BDA118D1A02500FB4340 /* IndexSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndexSearch.cpp; sourceTree = "<group>"; };
+		A330BDA218D1A02500FB4340 /* IndexSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexSearch.h; sourceTree = "<group>"; };
+		A330BDA318D1A02500FB4340 /* PriQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriQueue.cpp; sourceTree = "<group>"; };
+		A330BDA418D1A02500FB4340 /* PriQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriQueue.h; sourceTree = "<group>"; };
+		A330BDA618D1A02500FB4340 /* CHzSeg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CHzSeg.cpp; sourceTree = "<group>"; };
+		A330BDA718D1A02500FB4340 /* CHzSeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHzSeg.h; sourceTree = "<group>"; };
+		A330BDA818D1A02500FB4340 /* Dict.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dict.cpp; sourceTree = "<group>"; };
+		A330BDA918D1A02500FB4340 /* Dict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dict.h; sourceTree = "<group>"; };
+		A330BDAB18D1A02500FB4340 /* IndexInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndexInput.cpp; sourceTree = "<group>"; };
+		A330BDAC18D1A02500FB4340 /* IndexInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexInput.h; sourceTree = "<group>"; };
+		A330BDAD18D1A02500FB4340 /* IndexOutput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndexOutput.cpp; sourceTree = "<group>"; };
+		A330BDAE18D1A02500FB4340 /* IndexOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexOutput.h; sourceTree = "<group>"; };
+		A330BDAF18D1A02500FB4340 /* words.dict */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = words.dict; path = ../words.dict; sourceTree = "<group>"; };
+		A330BDB118D1A02500FB4340 /* IndexWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndexWriter.cpp; sourceTree = "<group>"; };
+		A330BDB218D1A02500FB4340 /* IndexWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexWriter.h; sourceTree = "<group>"; };
+		A330BDC618D2014900FB4340 /* nodeSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nodeSearch.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A330BD8018D19FCF00FB4340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A330BD7A18D19FCF00FB4340 = {
+			isa = PBXGroup;
+			children = (
+				A330BD8518D19FCF00FB4340 /* seamSearch */,
+				A330BD8418D19FCF00FB4340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A330BD8418D19FCF00FB4340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A330BD8318D19FCF00FB4340 /* seamSearch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A330BD8518D19FCF00FB4340 /* seamSearch */ = {
+			isa = PBXGroup;
+			children = (
+				A330BDC518D2014900FB4340 /* nodejs */,
+				A330BD9118D1A02500FB4340 /* document */,
+				A330BD9618D1A02500FB4340 /* merge */,
+				A330BD9B18D1A02500FB4340 /* reader */,
+				A330BDA018D1A02500FB4340 /* search */,
+				A330BDA518D1A02500FB4340 /* seg */,
+				A330BDAA18D1A02500FB4340 /* store */,
+				A330BDB018D1A02500FB4340 /* writer */,
+				A330BD8F18D1A00300FB4340 /* comm */,
+				A330BD8618D19FCF00FB4340 /* main.cpp */,
+				A330BD8818D19FCF00FB4340 /* seamSearch.1 */,
+			);
+			path = seamSearch;
+			sourceTree = "<group>";
+		};
+		A330BD8F18D1A00300FB4340 /* comm */ = {
+			isa = PBXGroup;
+			children = (
+				A330BD9018D1A00300FB4340 /* stdHeader.h */,
+			);
+			path = comm;
+			sourceTree = "<group>";
+		};
+		A330BD9118D1A02500FB4340 /* document */ = {
+			isa = PBXGroup;
+			children = (
+				A330BD9218D1A02500FB4340 /* Document.cpp */,
+				A330BD9318D1A02500FB4340 /* Document.h */,
+			);
+			path = document;
+			sourceTree = "<group>";
+		};
+		A330BD9618D1A02500FB4340 /* merge */ = {
+			isa = PBXGroup;
+			children = (
+				A330BD9718D1A02500FB4340 /* IndexMerge.cpp */,
+				A330BD9818D1A02500FB4340 /* IndexMerge.h */,
+				A330BD9918D1A02500FB4340 /* SegmentInfos.cpp */,
+				A330BD9A18D1A02500FB4340 /* SegmentInfos.h */,
+			);
+			path = merge;
+			sourceTree = "<group>";
+		};
+		A330BD9B18D1A02500FB4340 /* reader */ = {
+			isa = PBXGroup;
+			children = (
+				A330BD9C18D1A02500FB4340 /* HitDoc.cpp */,
+				A330BD9D18D1A02500FB4340 /* HitDoc.h */,
+				A330BD9E18D1A02500FB4340 /* IndexReader.cpp */,
+				A330BD9F18D1A02500FB4340 /* IndexReader.h */,
+			);
+			path = reader;
+			sourceTree = "<group>";
+		};
+		A330BDA018D1A02500FB4340 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				A330BDA118D1A02500FB4340 /* IndexSearch.cpp */,
+				A330BDA218D1A02500FB4340 /* IndexSearch.h */,
+				A330BDA318D1A02500FB4340 /* PriQueue.cpp */,
+				A330BDA418D1A02500FB4340 /* PriQueue.h */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		A330BDA518D1A02500FB4340 /* seg */ = {
+			isa = PBXGroup;
+			children = (
+				A330BDAF18D1A02500FB4340 /* words.dict */,
+				A330BDA618D1A02500FB4340 /* CHzSeg.cpp */,
+				A330BDA718D1A02500FB4340 /* CHzSeg.h */,
+				A330BDA818D1A02500FB4340 /* Dict.cpp */,
+				A330BDA918D1A02500FB4340 /* Dict.h */,
+			);
+			path = seg;
+			sourceTree = "<group>";
+		};
+		A330BDAA18D1A02500FB4340 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				A330BDAB18D1A02500FB4340 /* IndexInput.cpp */,
+				A330BDAC18D1A02500FB4340 /* IndexInput.h */,
+				A330BDAD18D1A02500FB4340 /* IndexOutput.cpp */,
+				A330BDAE18D1A02500FB4340 /* IndexOutput.h */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		A330BDB018D1A02500FB4340 /* writer */ = {
+			isa = PBXGroup;
+			children = (
+				A330BDB118D1A02500FB4340 /* IndexWriter.cpp */,
+				A330BDB218D1A02500FB4340 /* IndexWriter.h */,
+			);
+			path = writer;
+			sourceTree = "<group>";
+		};
+		A330BDC518D2014900FB4340 /* nodejs */ = {
+			isa = PBXGroup;
+			children = (
+				A330BDC618D2014900FB4340 /* nodeSearch.cpp */,
+			);
+			path = nodejs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A330BD8218D19FCF00FB4340 /* seamSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A330BD8C18D19FCF00FB4340 /* Build configuration list for PBXNativeTarget "seamSearch" */;
+			buildPhases = (
+				A330BD7F18D19FCF00FB4340 /* Sources */,
+				A330BD8018D19FCF00FB4340 /* Frameworks */,
+				A330BD8118D19FCF00FB4340 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = seamSearch;
+			productName = seamSearch;
+			productReference = A330BD8318D19FCF00FB4340 /* seamSearch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A330BD7B18D19FCF00FB4340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = waynelu;
+			};
+			buildConfigurationList = A330BD7E18D19FCF00FB4340 /* Build configuration list for PBXProject "seamSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A330BD7A18D19FCF00FB4340;
+			productRefGroup = A330BD8418D19FCF00FB4340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A330BD8218D19FCF00FB4340 /* seamSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A330BD7F18D19FCF00FB4340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330BDB618D1A3D900FB4340 /* IndexMerge.cpp in Sources */,
+				A330BDB718D1A3D900FB4340 /* SegmentInfos.cpp in Sources */,
+				A330BDB818D1A3D900FB4340 /* HitDoc.cpp in Sources */,
+				A330BDB918D1A3D900FB4340 /* IndexReader.cpp in Sources */,
+				A330BDBA18D1A3D900FB4340 /* IndexSearch.cpp in Sources */,
+				A330BDBB18D1A3D900FB4340 /* PriQueue.cpp in Sources */,
+				A330BDBC18D1A3D900FB4340 /* CHzSeg.cpp in Sources */,
+				A330BDBD18D1A3D900FB4340 /* Dict.cpp in Sources */,
+				A330BDBE18D1A3D900FB4340 /* IndexInput.cpp in Sources */,
+				A330BDBF18D1A3D900FB4340 /* IndexOutput.cpp in Sources */,
+				A330BDC018D1A3D900FB4340 /* IndexWriter.cpp in Sources */,
+				A330BDB318D1A3B200FB4340 /* Document.cpp in Sources */,
+				A330BD8718D19FCF00FB4340 /* main.cpp in Sources */,
+				A330BDC718D2014900FB4340 /* nodeSearch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A330BD8A18D19FCF00FB4340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				"GCC_OPTIMIZATION_LEVEL[arch=*]" = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/waynelu/nginxhtmls/v8/include,
+					/Users/waynelu/nginxhtmls/node/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A330BD8B18D19FCF00FB4340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/waynelu/nginxhtmls/v8/include,
+					/Users/waynelu/nginxhtmls/node/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A330BD8D18D19FCF00FB4340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A330BD8E18D19FCF00FB4340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A330BD7E18D19FCF00FB4340 /* Build configuration list for PBXProject "seamSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330BD8A18D19FCF00FB4340 /* Debug */,
+				A330BD8B18D19FCF00FB4340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A330BD8C18D19FCF00FB4340 /* Build configuration list for PBXNativeTarget "seamSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330BD8D18D19FCF00FB4340 /* Debug */,
+				A330BD8E18D19FCF00FB4340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A330BD7B18D19FCF00FB4340 /* Project object */;
+}

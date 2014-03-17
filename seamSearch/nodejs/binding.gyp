@@ -1,0 +1,19 @@
+{'targets':
+    [
+        {
+        'target_name': 'seamSearch',
+        'sources':['nodeSearch.cpp','../store/IndexOutput.cpp',
+                                    '../store/IndexInput.cpp',
+                                    '../document/Document.cpp',
+                                    '../writer/IndexWriter.cpp',
+                                    '../reader/IndexReader.cpp',
+                                    '../reader/HitDoc.cpp',
+                                    '../search/IndexSearch.cpp',
+                                    '../merge/SegmentInfos.cpp',
+                                    '../merge/IndexMerge.cpp',
+                                    '../seg/Dict.cpp',
+                                    '../seg/CHzSeg.cpp',
+                                    '../search/PriQueue.cpp']
+        }
+    ]
+}
