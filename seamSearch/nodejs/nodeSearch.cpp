@@ -77,11 +77,13 @@ Handle<Value> Search(const Arguments& args) {
 Handle<Value> Index(const Arguments& args) {
     HandleScope scope;
     IndexWriter *indexWriter=new IndexWriter();
-    String::Utf8Value dictFile(args[0]->ToString());
+    String::Utf8Value dictFile(args[1]->ToString());
     std::string dictDir(*dictFile);
-    indexWriter->open(dictDir.c_str(),false);
+    iDict.OpenDict(dictDir);
+    String::Utf8Value indexDir(args[0]->ToString());
+    indexWriter->open(*indexDir,false);
     indexWriter->setBufferDoc(2);
-    Local<Array> jsonObject=Local<Array>::Cast(args[1]);
+    Local<Array> jsonObject=Local<Array>::Cast(args[2]);
     Array * jsonArray(*jsonObject);
     for(int i=0;i<jsonArray->Length();i++){
         Array *dataArray(*(Local<Array>::Cast(jsonArray->Get(i))));

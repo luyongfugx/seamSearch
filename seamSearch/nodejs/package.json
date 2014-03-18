@@ -1,6 +1,6 @@
 {
   "name": "seamsearch",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "a nodejs fulltext search engine",
   "main": "index.js",
   "scripts": {
