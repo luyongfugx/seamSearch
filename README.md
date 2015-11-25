@@ -1,5 +1,8 @@
 seamSearch
 ==========
+
+
+
      这几年nodejs越来越火爆，js程序员们终于可以不局限于浏览器那一亩三分地了，很多以前由java,c等实现的东西纷纷有了nodejs版本，我也随波逐流一把，写了一个nodejs的搜索引擎addon,现在已经放github:https://github.com/luyongfugx/seamSearch,
 这个开源addon其实是对我几年前写的c++ 版的luyfsearch(github:https://github.com/luyongfugx/luyfsearch)进行的一个nodejs封装。下面我们来看看怎么使用:
      1.首先当然是安装，这个很简单：
